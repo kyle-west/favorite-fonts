@@ -10,9 +10,9 @@ In each example I used the following test string:
 
 ```js
 Object.keys({ 
-  qwro: 123, 
+  qwro:  123, 
   dflu:  456, 
-  zxvmp:  7890 
+  zxmp: 7890, 
 }).map(([k, v]) => [
   k === v,
   k !== v,
@@ -64,6 +64,6 @@ You need to enable font ligatures in VS Code to get some fonts to work right. I 
   "editor.fontLigatures": true,
   "editor.fontSize": 16,
   "editor.lineHeight": 20,
-  "editor.letterSpacing": 0.3,
+  "editor.letterSpacing": 0.6,
 }
 ```
